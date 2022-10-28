@@ -1,0 +1,99 @@
+body{
+    min-height: 100vh;
+    place-items: center;
+    font-family: Lexand Deca;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+   margin:auto;
+    font-family: "lexend deca";
+    height: 100vh;
+  }
+  .a{
+  
+    padding:60px;
+    background-color:  hsl(31, 77%, 52%);
+    font-size: 15px;
+    color: white;
+  
+  }
+  .b{
+    
+    padding:60px;
+    background-color:  hsl(184, 100%, 22%);
+    font-size: 15px;
+    color: white;
+  
+  }
+  .c{
+  
+    background-color: hsl(179, 100%, 13%);
+     padding:60px;
+     font-size: 15px;
+    color: white;
+  
+  }
+  
+  .button1{
+    color: white;
+    background-color:  hsl(31, 77%, 52%);
+    border-radius: 999px;
+    border: 2px solid white;
+  padding: 10px;
+    margin-top: 25px;
+    font-family: "lexend deca";
+  }
+  .button2{
+    color: white;
+    background-color:  hsl(184, 100%, 22%) ;
+    border-radius: 999px;
+    border: 2px solid white;
+  padding: 10px;
+    margin-top: 25px;
+    font-family: "lexend deca";
+  }
+  .button3 {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 999px;
+    border: 2px solid white;
+  padding: 10px;
+    margin-top: 25px;
+    font-family: "lexend deca";
+  }
+  .mybody{
+    background-color: black;
+  }
+  #main1{
+    display:grid;
+    grid-template-areas: 
+      'a a b'
+      'c d d'
+      'c d d'
+  }
+  #main1 {
+    padding: 2em;
+    text-align: center;
+  }
+  .item-a{
+    background-color: hsl(31, 77%, 52%);
+    grid-area: a;
+  }
+  .item-b{
+    background-color: #f2a518;
+    grid-area: b;
+  }
+  .item-c{
+    background-color: #2ee52e;
+    grid-area: c;
+  }
+  .item-d{
+    background-color: #9595db;
+    grid-area: d;
+  }
+  
+  
